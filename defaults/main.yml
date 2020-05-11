@@ -1,6 +1,6 @@
 ---
 # defaults file for ubuntu2004-CIS
-ubuntu2004cis_skip_for_travis: false
+ubuntu2004cis_skip_for_travis: true
 
 ubuntu2004cis_notauto: false
 ubuntu2004cis_section1: true
@@ -247,8 +247,8 @@ ubuntu2004cis_rule_6_2_18: true
 ubuntu2004cis_rule_6_2_19: true
 
 # Service configuration booleans set true to keep service
-ubuntu2004cis_avahi_server: false
-ubuntu2004cis_cups_server: false
+ubuntu2004cis_avahi_server: true
+ubuntu2004cis_cups_server: true
 ubuntu2004cis_dhcp_server: false
 ubuntu2004cis_ldap_server: false
 ubuntu2004cis_telnet_server: false
@@ -261,18 +261,18 @@ ubuntu2004cis_rsh_server: false
 ubuntu2004cis_nis_server: false
 ubuntu2004cis_snmp_server: false
 ubuntu2004cis_squid_server: false
-ubuntu2004cis_smb_server: false
+ubuntu2004cis_smb_server: ture
 ubuntu2004cis_dovecot_server: false
-ubuntu2004cis_httpd_server: false
+ubuntu2004cis_httpd_server: true
 ubuntu2004cis_vsftpd_server: false
 ubuntu2004cis_named_server: false
 ubuntu2004cis_nfs_rpc_server: false
-ubuntu2004cis_is_mail_server: false
+ubuntu2004cis_is_mail_server: true
 ubuntu2004cis_bind: false
 ubuntu2004cis_vsftpd: false
-ubuntu2004cis_httpd: false
+ubuntu2004cis_httpd: true
 ubuntu2004cis_dovecot: false
-ubuntu2004cis_samba: false
+ubuntu2004cis_samba: true
 ubuntu2004cis_squid: false
 ubuntu2004cis_net_snmp: false
 ubuntu2004cis_allow_autofs: false
@@ -313,7 +313,7 @@ ubuntu2004cis_selinux_pol: targeted
 ubuntu2004cis_gui: false
 
 # Set to 'true' if X Windows is needed in your environment
-ubuntu2004cis_xwindows_required: false
+ubuntu2004cis_xwindows_required: true
 
 ubuntu2004cis_openldap_clients_required: false
 ubuntu2004cis_telnet_required: false
