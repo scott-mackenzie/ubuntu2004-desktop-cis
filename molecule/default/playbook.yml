@@ -27,4 +27,4 @@
       changed_when: false
 
   roles:
-    - role: ubuntu2004-CIS
+    - role: ubuntu2004-desktop-cis

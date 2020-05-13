@@ -1,4 +1,4 @@
-# Makefile for Ubuntu1804-CIS
+# Makefile for Ubuntu2004-CIS
 .PHONY: help
 help:
 	@echo
@@ -33,7 +33,7 @@ bin/python:
 	# pip is the package manager for python
 	pip -V || sudo easy_install pip
 	# virtualenv allows isolation of python libraries
-	virtualenv --version || sudo easy_install virtualenv
+	virtualenv --version || sudo pip install virtualenv==16.7.10
 
 	# Now with those two we can isolate our test setup.
 	virtualenv .
